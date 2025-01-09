@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="ppck-ver" content="b702023c185c836440cdba12fe06d4fe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Settings Lookup</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2C2C3C;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .menu {
+            font-size: 16px;
+        }
+
+        header .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header .subtitle {
+            font-size: 14px;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .input-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .input-container input[type="text"] {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .input-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        .input-container button:hover {
+            background-color: #555;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            margin: 20px auto;
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu">•• FAQ ••</div>
+        <div>
+            <div class="title">emailsettingslookup</div>
+            <div class="subtitle">OVER 20,000 EMAIL SETTINGS</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="description">Need the email settings for your phone or email program?<br>Enter your email address below. (Your email address will not be stored.)</div>
+        
+        <div class="input-container">
+            <input type="text" placeholder="E.g. my-name@gmail.com">
+            <button>FIND</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>INCOMING SERVER</th>
+                    <th>IMAP</th>
+                    <th>POP3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Username:</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td>Server Hostname:</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td>Server Port:</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td>SSL/TLS:</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td>Authentication:</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>OUTGOING SERVER</th>
+                    <th>SMTP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Username:</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td>Server Hostname:</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td>Server Port:</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <td>SSL/TLS:</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>We do not store or share your details. Your email address is only used to search for email settings for that domain.</p>
+        <p>Found a mistake? Please email <a href="mailto:support@firetrust.com">support@firetrust.com</a> so we can fix it.</p>
+        <p>Access the API to get updated email settings for your app/software.<br>
+           Example: <a href="https://emailsettings.firetrust.com/settings?q=test.user@gmail.com" target="_blank">https://emailsettings.firetrust.com/settings?q=test.user@gmail.com</a></p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
